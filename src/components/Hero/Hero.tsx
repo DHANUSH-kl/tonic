@@ -52,7 +52,7 @@ const Hero = () => {
       <div className={styles.bgWrapper}>
         <Image
           src="/hero-bg-v2.png"
-          alt="Liquor Garage Interior"
+          alt="Tonic Interior"
           fill
           priority
           className={styles.bgImage}
@@ -178,7 +178,7 @@ const Hero = () => {
               EXPLORE
             </Link>
             <Link
-              href="tel:7899613040"
+              href="tel:9900447762"
               className={`${styles.ctaButton} ${styles.ctaButtonSecondary}`}
             >
               CONTACT US

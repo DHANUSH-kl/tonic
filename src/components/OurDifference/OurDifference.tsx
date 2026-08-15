@@ -17,7 +17,7 @@ const cardsData = [
         id: 1,
         title: "100% Authentic Spirits",
         description:
-            "Every bottle at Liquor Garage is sourced from trusted distributors and verified suppliers, ensuring complete authenticity and uncompromised quality.",
+            "Every bottle at Tonic is sourced from trusted distributors and verified suppliers, ensuring complete authenticity and uncompromised quality.",
         image: "/100_ Authentic Spirits.jpg",
         Icon: BadgeCheck,
     },
@@ -135,7 +135,7 @@ const OurDifference = () => {
                     <span>Our Difference</span>
                 </div>
 
-                <h2 className={`${styles.title} revealTextDiff`}>Why Liquor Garage</h2>
+                <h2 className={`${styles.title} revealTextDiff`}>Why Tonic</h2>
 
                 <p className={`${styles.description} revealTextDiff`}>
                     Experience excellence in every bottle. Discover what sets us apart in

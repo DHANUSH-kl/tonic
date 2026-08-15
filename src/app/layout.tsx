@@ -25,8 +25,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Liquor Garage | Mysore's Finest Spirits",
-  description: "Mysore's high-end brick-and-mortar liquor retail store experience.",
+  title: "Tonic | Mysore's Finest Spirits",
+  description: "Mysore's high-end brick-and-mortar liquor retail store experience at Devegowda Circle.",
 };
 
 export default function RootLayout({

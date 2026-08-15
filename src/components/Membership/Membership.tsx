@@ -37,14 +37,14 @@ const Membership = () => {
             <div className={styles.container}>
                 {/* Left Side: Copy & CTA */}
                 <div className={styles.textContent}>
-                    <span className={styles.badge}>Liquor Garage</span>
+                    <span className={styles.badge}>Tonic</span>
                     <h2 className={styles.title}>
                         Exclusive<br /><span>Membership</span>
                     </h2>
                     <p className={styles.description}>
                         Elevate your experience. Take the membership and earn exclusive redeemable tokens with every alcohol purchase. Use your tokens to claim premium gifts and special offers.
                     </p>
-                    <Link href="tel:7899613040" className={styles.ctaButton}>
+                    <Link href="tel:9900447762" className={styles.ctaButton}>
                         Get Your Membership
                     </Link>
                 </div>

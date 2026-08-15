@@ -23,22 +23,22 @@ export default function VisitPage() {
                                 <div className={styles.infoItem}>
                                     <p className="text-label" style={{ color: 'var(--color-gold)' }}>ADDRESS</p>
                                     <p className="text-body" style={{ marginTop: '8px' }}>
-                                        No. 42, Vani Vilas Road, Lakshmipuram,<br />
-                                        Mysore, Karnataka 570004
+                                        Devegowda Circle, Outer Ring Road,<br />
+                                        Mysore, Karnataka, India
                                     </p>
                                 </div>
                                 <div className={styles.infoItem} style={{ marginTop: 'var(--space-8)' }}>
                                     <p className="text-label" style={{ color: 'var(--color-gold)' }}>HOURS</p>
                                     <p className="text-body" style={{ marginTop: '8px' }}>
                                         MONDAY – SUNDAY<br />
-                                        10:00 AM – 10:00 PM
+                                        10:00 AM – 10:30 PM
                                     </p>
                                 </div>
                                 <div className={styles.infoItem} style={{ marginTop: 'var(--space-8)' }}>
                                     <p className="text-label" style={{ color: 'var(--color-gold)' }}>CONTACT</p>
                                     <p className="text-body" style={{ marginTop: '8px' }}>
-                                        +91 821 2345 678<br />
-                                        info@liquorgarage.com
+                                        +91 99004 47762<br />
+                                        info@tonic.com
                                     </p>
                                 </div>
                             </ScrollReveal>

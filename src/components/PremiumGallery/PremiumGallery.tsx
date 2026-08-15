@@ -12,18 +12,17 @@ if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger, useGSAP);
 }
 
-// Local images directly from public directory - exactly 4 to avoid duplication
 const images = [
-    { id: 1, url: '/lg1-.jpg' },
-    { id: 2, url: '/lg2-.jpg' },
-    { id: 3, url: '/lg3-.jpg' },
-    { id: 4, url: '/lg4-.jpg' },
-    { id: 5, url: '/lg5-.jpeg' },
-    { id: 6, url: '/lg6-.jpeg' },
-    { id: 7, url: '/lg7-.jpeg' },
-    { id: 8, url: '/lg8-.jpeg' },
-    { id: 9, url: '/lg9-.jpeg' },
-    { id: 10, url: '/lg10-.jpeg' },
+    { id: 1, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+1' },
+    { id: 2, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+2' },
+    { id: 3, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+3' },
+    { id: 4, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+4' },
+    { id: 5, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+5' },
+    { id: 6, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+6' },
+    { id: 7, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+7' },
+    { id: 8, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+8' },
+    { id: 9, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+9' },
+    { id: 10, url: 'https://placehold.co/600x800/1a1a1a/c5a45c?text=Tonic+Pouring+10' },
 ];
 
 const PremiumGallery = () => {

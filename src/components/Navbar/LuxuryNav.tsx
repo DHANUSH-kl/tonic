@@ -51,8 +51,8 @@ export default function LuxuryNav() {
                         className={`${styles.logoOuter} ${isMenuOpen ? styles.logoOuterOpen : ""}`}
                     >
                         <div className={styles.logoInner}>
-                            <span className={styles.logoTitle}>LIQUOR</span>
-                            <span className={styles.logoSubtitle}>GARAGE</span>
+                            <span className={styles.logoTitle}>TONIC</span>
+                            <span className={styles.logoSubtitle}>PREMIUM</span>
                         </div>
                     </Link>
 
@@ -119,7 +119,7 @@ export default function LuxuryNav() {
                     {/* Footer */}
                     <div className={styles.footer}>
                         <span>EST2024</span>
-                        <span>LIQUOR GARAGE</span>
+                        <span>TONIC</span>
                         <span>PREMIUM SPIRITS</span>
                     </div>
                 </div>

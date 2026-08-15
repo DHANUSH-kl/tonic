@@ -75,16 +75,10 @@ const Location = () => {
                                 <div>
                                     <h3 className={styles.infoTitle}>Address</h3>
                                     <div className={styles.infoText}>
-                                        <p style={{ marginBottom: "1rem" }}>
-                                            <strong style={{ color: "#ff7a33" }}>Hebbalu Store:</strong><br />
-                                            No. 287, Shop No. 1, <br />
-                                            Mahadeshwara Extension, <br />
-                                            Hebbalu, Mysore, India 570016
-                                        </p>
                                         <p>
-                                            <strong style={{ color: "#ff7a33" }}>Ring Rd Store:</strong><br />
-                                            7JJ4+CJQ, Ring Rd, Kanakadasa Nagar, <br />
-                                            Somanath Nagar, Mysuru, Karnataka 570033
+                                            Devegowda Circle, <br />
+                                            Outer Ring Rd, <br />
+                                            Mysore, Karnataka, India
                                         </p>
                                     </div>
                                 </div>
@@ -108,7 +102,7 @@ const Location = () => {
                                 </div>
                                 <div>
                                     <h3 className={styles.infoTitle}>Contact</h3>
-                                    <p className={styles.infoText}>+91 78996 13040</p>
+                                    <p className={styles.infoText}>+91 99004 47762</p>
                                 </div>
                             </div>
 
@@ -116,20 +110,12 @@ const Location = () => {
 
                         <div className="animateLeft" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
                             <a
-                                href="https://maps.google.com/?q=No.+287,+Shop+No.+1,+Mahadeshwara+Extension,+Hebbalu,+Mysore,+Karnataka+570016"
+                                href="https://maps.google.com/?q=Devegowda+Circle,+Mysore,+Karnataka"
                                 target="_blank"
                                 rel="noreferrer"
                                 className={styles.directionsBtn}
                             >
-                                Hebbalu Store Location
-                            </a>
-                            <a
-                                href="https://maps.google.com/?q=7JJ4+CJQ,+Ring+Rd,+Kanakadasa+Nagar,+Somanath+Nagar,+Mysuru,+Karnataka+570033"
-                                target="_blank"
-                                rel="noreferrer"
-                                className={styles.directionsBtn}
-                            >
-                                Dattagalli Store Location
+                                Get Directions
                             </a>
                         </div>
                     </div>
@@ -139,21 +125,8 @@ const Location = () => {
                         <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem", height: "100%" }}>
                             <div className={styles.mapWrapper} style={{ flex: 1 }}>
                                 <iframe
-                                    title="Hebbalu Store Location"
-                                    src="https://www.google.com/maps?q=No.+287,+Shop+No.+1,+Mahadeshwara+Extension,+Hebbalu,+Mysore,+Karnataka+570016&output=embed"
-                                    width="100%"
-                                    height="100%"
-                                    style={{ border: 0 }}
-                                    allowFullScreen={true}
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                    className={styles.iframe}
-                                ></iframe>
-                            </div>
-                            <div className={styles.mapWrapper} style={{ flex: 1 }}>
-                                <iframe
-                                    title="Ring Rd Store Location"
-                                    src="https://www.google.com/maps?q=7JJ4+CJQ,+Ring+Rd,+Kanakadasa+Nagar,+Somanath+Nagar,+Mysuru,+Karnataka+570033&output=embed"
+                                    title="Tonic Store Location"
+                                    src="https://www.google.com/maps?q=Devegowda+Circle,+Mysore,+Karnataka&output=embed"
                                     width="100%"
                                     height="100%"
                                     style={{ border: 0 }}

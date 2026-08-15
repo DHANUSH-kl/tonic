@@ -31,7 +31,7 @@ export default function AboutPage() {
                                     &quot;Tasting is an art form, and curation is its gallery.&quot;
                                 </blockquote>
                                 <p className="text-body" style={{ color: 'var(--color-text-muted)' }}>
-                                    Liquor Garage was founded on the principle that finding the right spirit
+                                    Tonic was founded on the principle that finding the right spirit
                                     should be an experience in itself. Located in the heart of Mysore, our
                                     boutique store offers more than just labels; we offer a journey through
                                     the world&apos;s most storied distilleries.

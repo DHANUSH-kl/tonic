@@ -7,7 +7,7 @@ import styles from "./Discover.module.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Discover Fine Spirits | Liquor Garage",
+    title: "Discover Fine Spirits | Tonic",
     description: "Explore a curated guide to the world’s most celebrated spirits. From bold whiskies to refined wines, discover the styles and origins that define each category.",
 };
 

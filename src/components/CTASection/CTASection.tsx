@@ -58,7 +58,7 @@ const CTASection = () => {
                             Call Now
                         </button>
                         <button className={`${styles.btn} ${styles.btnSecondary}`}>
-                            Visit Liquor Garage
+                            Visit Tonic
                         </button>
                     </div>
                 </div>

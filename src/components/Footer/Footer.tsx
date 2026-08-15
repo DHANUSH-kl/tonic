@@ -11,8 +11,7 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div className={styles.brandCol}>
                         <Link href="/" className={styles.logo}>
-                            LIQUOR<br />
-                            <span className={styles.logoLight}>GARAGE</span>
+                            TONIC
                         </Link>
                         <p className={styles.brandDesc}>
                             Mysuru's premier destination for high-end spirits, curated wines, and exclusive tasting experiences.
@@ -29,7 +28,7 @@ const Footer = () => {
                         <h4 className={styles.colTitle}>Explore</h4>
                         <ul className={styles.linkList}>
                             <li><Link href="/discover" className={styles.link}>Discover Spirits</Link></li>
-                            <li><Link href="/#why-us" className={styles.link}>Why Liquor Garage</Link></li>
+                            <li><Link href="/#why-us" className={styles.link}>Why Tonic</Link></li>
                             <li><Link href="#impact" className={styles.link}>Our Impact</Link></li>
                             <li><Link href="#membership" className={styles.link}>Exclusive Membership</Link></li>
                             <li><Link href="#gallery" className={styles.link}>Premium Gallery</Link></li>
@@ -43,17 +42,16 @@ const Footer = () => {
                             <li className={styles.contactItem} style={{ alignItems: "flex-start" }}>
                                 <MapPin size={18} className={styles.contactIcon} style={{ marginTop: "4px" }} />
                                 <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-                                    <span><strong>Hebbalu:</strong> No. 287, Shop No. 1, Mahadeshwara Extension, Hebbalu, Mysore, India 570016</span>
-                                    <span><strong>Ring Rd:</strong> 7JJ4+CJQ, Ring Rd, Kanakadasa Nagar, Somanath Nagar, Mysuru, Karnataka 570033</span>
+                                    <span>Devegowda Circle, Mysore, India</span>
                                 </div>
                             </li>
                             <li className={styles.contactItem}>
                                 <Phone size={18} className={styles.contactIcon} />
-                                <span>+91 78996 13040</span>
+                                <span>+91 99004 47762</span>
                             </li>
                             <li className={styles.contactItem}>
                                 <Mail size={18} className={styles.contactIcon} />
-                                <span>liquorgaragemysore@gmail.com</span>
+                                <span>info@tonic.com</span>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +61,7 @@ const Footer = () => {
             {/* Bottom Bar */}
             <div className={styles.bottomBar}>
                 <div className={styles.bottomContainer}>
-                    <p>&copy; {new Date().getFullYear()} Liquor Garage. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Tonic. All rights reserved.</p>
                     <div className={styles.legalLinks}>
                         Drink Responsibly. Must be 21+ to enter.
                     </div>

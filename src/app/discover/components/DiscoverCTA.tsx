@@ -35,11 +35,11 @@ export default function DiscoverCTA() {
                 <div className={styles.content}>
                     <h2 className={styles.title}>Looking for a Specific Bottle?</h2>
                     <p className={styles.text}>
-                        With over 1200+ premium bottles, Liquor Garage offers one of the largest curated selections of spirits.
+                        With over 1200+ premium bottles, Tonic offers one of the largest curated selections of spirits.
                         Our team can help you find the perfect bottle for any occasion.
                     </p>
                     <div className={styles.buttons}>
-                        <a href="tel:7899613040" className={styles.primaryBtn}>Call Now</a>
+                        <a href="tel:9900447762" className={styles.primaryBtn}>Call Now</a>
                         <a href="#location" className={styles.secondaryBtn}>Store Location</a>
                     </div>
                 </div>
